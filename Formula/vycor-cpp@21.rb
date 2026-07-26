@@ -1,9 +1,9 @@
 class VycorCppAT21 < Formula
   desc "Clang LibTooling backend for C++ static analysis (LLVM 21 build)"
   homepage "https://github.com/bearbones/vycor-cpp"
-  url "https://github.com/bearbones/vycor-cpp/releases/download/v0.1.0/vycor-cpp-v0.1.0-macos-arm64-llvm21.tar.gz"
-  sha256 "66c5ff369c78d5723fd7f0392cd7737f08851002cafe19f2b26865a514a91184"
-  version "0.1.0"
+  url "https://github.com/bearbones/vycor-cpp/releases/download/v0.2.0/vycor-cpp-v0.2.0-macos-arm64-llvm21.tar.gz"
+  sha256 "fcffc0d9e475d24151faacc3c5f33938028a75847768212330a5628f7e25ec2b"
+  version "0.2.0"
   license "Apache-2.0"
   depends_on "llvm@21"
   depends_on arch: :arm64
